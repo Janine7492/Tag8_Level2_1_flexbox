@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1920px;
+}
+
+section {
+    padding: 2vh;
+    margin: 2vh 2vw;
+    /* height: 100vh; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    border: 3px solid black;
+    box-shadow: 3px 3px 3px black inset;
+    /* box-shadow: 3px 3px 3px black; */
+}
+
+section img {
+    width: 23.5%;
+    height: 200px;
+    object-fit: cover;
+}
